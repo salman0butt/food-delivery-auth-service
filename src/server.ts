@@ -1,5 +1,5 @@
 function welcome() {
-  console.log('Welcome to the Auth Service');
+  // console.log('Welcome to the Auth Service');
 
   const user = {
     name: 'Salman Butt',

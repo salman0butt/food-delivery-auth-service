@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "node src/server.js",
+    "format:fix": "npx prettier . --write",
+    "format:check": "npx prettier . --check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
@@ -11,6 +14,7 @@
   "main": "index.js",
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "prettier": "3.6.2",
     "typescript": "^5.9.3"
   }
 }

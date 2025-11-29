@@ -1,11 +1,9 @@
 import express, { NextFunction, Request, Response } from 'express';
-import createHttpError, { HttpError } from 'http-errors';
+import { HttpError } from 'http-errors';
 
 const app = express();
 
 app.get('/', (req, res) => {
-  const error = createHttpError(402, 'Unauthorized');
-  throw error;
   res.send('welcome to auth service');
 });
 

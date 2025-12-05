@@ -1,11 +1,14 @@
 import express, { NextFunction, Request, Response } from 'express';
 import { HttpError } from 'http-errors';
+import authRouter from './routes/auth';
 
 const app = express();
 
 app.get('/', (req, res) => {
   res.send('welcome to auth service');
 });
+
+app.use('/auth', authRouter);
 
 //global error handler
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

@@ -18,6 +18,7 @@
   "main": "index.js",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.5",
     "@types/http-errors": "^2.0.5",
     "@types/jest": "^30.0.0",
@@ -38,6 +39,7 @@
   },
   "dependencies": {
     "@types/winston": "^2.4.4",
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "http-errors": "^2.0.1",

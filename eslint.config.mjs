@@ -13,7 +13,7 @@ export default defineConfig(
       'jest.config.js',
       'src/**/*.spec.ts',
       'tests/**/*.ts',
-      "scripts/*",
+      'scripts/*',
     ],
   },
   eslint.configs.recommended,
